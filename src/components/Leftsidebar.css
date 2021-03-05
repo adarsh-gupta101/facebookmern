@@ -1,0 +1,14 @@
+.leftsidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 223, 223);
+  margin-top: 5px;
+}
+h5 {
+  font-size: medium;
+}
+@media only screen and(max-width:600px) {
+  .leftsidebar {
+    display: none;
+  }
+}

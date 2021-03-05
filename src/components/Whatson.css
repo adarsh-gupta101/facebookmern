@@ -1,0 +1,31 @@
+.whatson_bottom {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.whatson_bottom > div {
+  margin-left: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.whatson_top {
+  align-items: center;
+  justify-content: space-between;
+}
+.whatson_top > input {
+  border: 0;
+  outline-width: 0;
+  background: none;
+}
+.whatson {
+  background-color: rgb(221, 221, 221);
+  margin-left: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .whatson {
+    margin-left: 35px;
+  }
+}

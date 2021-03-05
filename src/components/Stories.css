@@ -1,0 +1,44 @@
+.stories__images {
+  position: relative;
+  width: 115px;
+  height: 150px;
+  border-radius: 25px;
+  transition: width 1s, height 1s;
+}
+.stories__container {
+  position: relative;
+  /* padding: 25px;
+  
+  margin: 2px; */
+  margin-left: 12px;
+}
+.stories__username {
+  position: absolute;
+  bottom: 5px;
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  margin-left: 5px;
+  background-color: gray;
+}
+.stories {
+  display: flex;
+  padding: 25px;
+  margin: 2px;
+}
+
+.stories__images:hover {
+  width: 135px;
+  height: 170px;
+}
+
+@media only screen and (max-width: 600px) {
+  .stories__images {
+    width: 85px;
+    height: 80px;
+  }
+  .stories__username {
+    font-weight: 300;
+  }
+} ;
